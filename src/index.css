@@ -4,9 +4,9 @@
     background-color: var(--bg-color);
 }
 :root{
-    --bg-color:  #E0E0E0  ;
-    --txt-color: #333333  ;
-    --btn-color:  #FFC107 ;
+    --bg-color:  #318CE7;
+    --txt-color: #fff ;
+    --btn-color:  #96ff5e;
 }
 .btn{
     background-color: var(--btn-color);
