@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
 *{
     font-family: 'Roboto', sans-serif;
-    
+    background-color: var(--bg-color);
+}
+:root{
+    --bg-color:  #E0E0E0  ;
+    --txt-color: #333333  ;
+    --btn-color:  #FFC107 ;
+}
+.btn{
+    background-color: var(--btn-color);
+}
+
+h1{
+    color: var(--txt-color);
 }
