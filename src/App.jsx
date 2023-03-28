@@ -5,14 +5,12 @@ function App() {
 
   return (
     <div className="app">
-    <h1>Hello</h1>
-      <BrowserRouter>
-          <Navbar/>
-          <Route to="/"><Home/></Route>
-       
+          <Routes>
+          <Route to="/" element={<Home/>}/>
+          </Routes>
 
 
-      </BrowserRouter>
+     
     </div>
   )
 }
