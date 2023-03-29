@@ -8,12 +8,21 @@
     
 }
 :root{
-    --bg-color:  #0e6aa7;
-    --txt-color: #fff ;
-    --btn-color:  #96ff5e;
-    --btn-secondary : #13274F;
+    --bg-color:  #F3F7D4;
+    --txt-color: #093426 ;
+    --btn-color:  #7FBD32;
+    --btn-secondary : #CBE432 ;
 }
 .btn{
+    background-color: var(--btn-secondary);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem ;
+    border-radius: 20px;
+    transition: ease-in-out 1s;
+}
+.btn:hover{
+    font-size: 1.2rem;
     background-color: var(--btn-color);
 }
 

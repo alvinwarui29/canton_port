@@ -1,4 +1,35 @@
+.hero{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 3rem;
+}
+
 .hero .right-h img{
-    height: 300px;
+    height: 60vh;
     width: 300px;
+}
+.hero .left-h{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.hero .left-h h3{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+
+}
+.hero .left-h p{
+    font-size: 2rem;
+    text-align: center;
+    line-height: 3rem;
+    
+}
+.hero .left-h .buttons{
+    margin-top: 30px;
+}
+.hero .left-h .buttons a{
+    margin-right: 20px;
+    
 }
