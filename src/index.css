@@ -17,7 +17,7 @@
     background-color: var(--btn-color);
 }
 
-h1{
+h1,h3,p{
     color: var(--txt-color);
     background-color: transparent;
 }
