@@ -2,10 +2,11 @@
     display: flex;
     justify-content: space-between ;
     align-items: center;
-    padding: 1rem;
-    text-align: left;
+    padding: 1rem;    
     background: var(--btn-secondary);
 }
+
+
 .hamburger{
     background: transparent;
     cursor: pointer;
@@ -30,16 +31,20 @@
         position: absolute;
         top: -100%;
         left: 0;
-        z-index: -3;
+        z-index: 3;
         transition: 0.3s;
         background: var(--btn-secondary);
     
+    }
+    .header .logo{
+        z-index: 12;
     }
     .nav-menu.active{
         top: 0;
     }
     .hamburger{
         display: initial;
+        z-index: 12;
     }
     .nav-menu li{
         padding: 1rem 0;

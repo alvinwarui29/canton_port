@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 *{
     font-family: 'Roboto', sans-serif;
     background-color: var(--bg-color);
@@ -8,7 +8,7 @@
     
 }
 :root{
-    --bg-color:  #318CE7;
+    --bg-color:  #0e6aa7;
     --txt-color: #fff ;
     --btn-color:  #96ff5e;
     --btn-secondary : #13274F;
@@ -19,11 +19,11 @@
 
 h1{
     color: var(--txt-color);
-    background-color: #13274F;
+    background-color: transparent;
 }
 ul,a,li{
     text-decoration: none;
     list-style: none;
     color: var(--txt-color);
-    background-color: #13274F;
+    background-color: transparent;
 }
