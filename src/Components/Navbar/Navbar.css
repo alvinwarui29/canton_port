@@ -6,6 +6,11 @@
     text-align: left;
     background: var(--btn-secondary);
 }
+.hamburger{
+    background: transparent;
+    cursor: pointer;
+    display: none;
+}
 
 
 .nav-menu{
