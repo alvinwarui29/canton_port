@@ -2,12 +2,10 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     margin-top: 3rem;
+    gap: 2rem;
 }
 
-.hero .right-h img{
-    height: 60vh;
-    width: 300px;
-}
+
 .hero .left-h{
     display: flex;
     flex-direction: column;
@@ -58,4 +56,11 @@
         
     }
     
+}
+@media screen and (min-width:1020px) {
+    .hero .right-h img{
+        height: 70vh;
+        width: 450px;
+        margin-right: 20px;
+    }
 }
