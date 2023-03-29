@@ -21,7 +21,7 @@
 .nav-menu li{
     padding: 0 1rem;
 }
-@media screen and (max-width:1040px) {
+@media screen and (max-width:760px) {
     .nav-menu{
         flex-direction: column;
         justify-content: center;
@@ -52,4 +52,11 @@
     .nav-menu li a{
         font-size: 2rem;
     }
+}
+@media screen and (min-width:761px) {
+    .nav-menu li a {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    
 }
