@@ -10,7 +10,7 @@ const Navbar = () => {
     <div>
       <header>
       <div className="header">
-        <Link to='/'><h1 >Canton</h1></Link>
+        <Link to='/'><h1 className='logo'>Canton</h1></Link>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li>
             <Link to='/'>Home</Link>
