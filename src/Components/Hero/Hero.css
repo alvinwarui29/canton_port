@@ -64,3 +64,19 @@
         margin-right: 20px;
     }
 }
+@media screen and (min-width:421px) and (max-width:1010px) {
+    .hero{
+        grid-template-columns:1fr;
+        width: 100%;        
+    }
+    .hero .right-h{
+        text-align: center;
+    }
+    .hero .right-h img{
+        height: 70vh;
+        width: 400px;
+        margin-right: 20px;
+    }
+    
+    
+}
