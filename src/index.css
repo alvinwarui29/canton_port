@@ -2,6 +2,10 @@
 *{
     font-family: 'Roboto', sans-serif;
     background-color: var(--bg-color);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
 }
 :root{
     --bg-color:  #318CE7;
