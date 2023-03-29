@@ -11,6 +11,7 @@
     --bg-color:  #318CE7;
     --txt-color: #fff ;
     --btn-color:  #96ff5e;
+    --btn-secondary : #13274F;
 }
 .btn{
     background-color: var(--btn-color);
@@ -18,4 +19,11 @@
 
 h1{
     color: var(--txt-color);
+    background-color: #13274F;
+}
+ul,a,li{
+    text-decoration: none;
+    list-style: none;
+    color: var(--txt-color);
+    background-color: #13274F;
 }
