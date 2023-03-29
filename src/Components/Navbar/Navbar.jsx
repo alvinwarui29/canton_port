@@ -1,12 +1,15 @@
 import './Navbar.css'
 import React from 'react'
 import {Link} from 'react-router-dom'
+import {FaBars,FaTimes} from 'react-icons/fa';
+
 const Navbar = () => {
   return (
     <div>
       <header>
-        <Link><h1>Canton</h1></Link>
-        <ul>
+      <div className="header">
+        <Link to='/'><h1 >Canton</h1></Link>
+        <ul className='nav-menu'>
           <li>
             <Link to='/'>Home</Link>
           </li>
@@ -20,6 +23,12 @@ const Navbar = () => {
             <Link to='/contact' >Contact</Link>
           </li>
         </ul>
+        <div className="hamburger">
+          <FaBars size={20} style={{background: '#13274F' ,color:'#fff'}}
+          />
+          <FaTimes size={20} style={{background: '#13274F' ,color:'#fff'}}/>
+        </div>
+        </div>
       </header>
     </div>
   )
