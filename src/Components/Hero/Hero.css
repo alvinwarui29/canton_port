@@ -33,3 +33,29 @@
     margin-right: 20px;
     
 }
+@media screen and (max-width:420px) {
+    .hero{
+        width: 100%;
+        grid-template-columns:1fr;
+    }
+    .hero .right-h {
+        text-align: center;
+        padding-bottom: 20px;
+        height: 20px;
+    }
+    .hero .right-h img{
+        height: 40vh;
+        width: 300px;
+        margin-top: 30px ;
+               
+    }
+    .hero .left-h{
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .hero .left-h .buttons a{
+        margin-bottom: 30px;
+        
+    }
+    
+}
