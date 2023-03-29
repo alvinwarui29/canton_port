@@ -13,6 +13,7 @@
 }
 
 
+
 .nav-menu{
     display: flex;
 }
@@ -27,16 +28,21 @@
         width: 100%;
         height: 100vh;
         position: absolute;
-        top: 0;
+        top: -100%;
         left: 0;
         z-index: -3;
+        transition: 0.3s;
         background: var(--btn-secondary);
     
     }
+    .nav-menu.active{
+        top: 0;
+    }
+    .hamburger{
+        display: initial;
+    }
     .nav-menu li{
         padding: 1rem 0;
-        
-
     }
     .nav-menu li a{
         font-size: 2rem;
